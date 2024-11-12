@@ -23,12 +23,34 @@
 
         }
 
-        
+        public static int Add(int numOne, int numTwo)
+        {
+            return numOne + numTwo;
+        }
+
+        public static int Multiply(int numOne, int numTwo)
+        {
+            return numOne * numTwo;
             
-        
+        }
+
+        public static int Divide(int numOne, int numTwo)
+        {
+            return numOne / numTwo;
+        }
+
+        public static int Subtract(int numOne, int numTwo)
+        {
+            return numOne - numTwo;
+        }
         static void Main(string[] args)
         {
             MadLibLog();
+            Console.WriteLine(Add(4, 4));      // 8
+            Console.WriteLine(Subtract(5, 5)); // 0
+            Console.WriteLine(Multiply(6, 6)); // 36
+            Console.WriteLine(Divide(8, 8));   // 1
+            
             
             
         }
