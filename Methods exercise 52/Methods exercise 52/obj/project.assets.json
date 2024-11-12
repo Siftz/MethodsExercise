@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net8.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net8.0": []
   },
   "packageFolders": {
     "C:\\Users\\lakin\\.nuget\\packages\\": {},
@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lakin\\repos\\MethodsExercise\\MethodsExercise\\MethodsExercise.csproj",
-      "projectName": "MethodsExercise",
-      "projectPath": "C:\\Users\\lakin\\repos\\MethodsExercise\\MethodsExercise\\MethodsExercise.csproj",
+      "projectUniqueName": "C:\\Users\\lakin\\repos\\MethodsExercise\\Methods exercise 52\\Methods exercise 52\\Methods exercise 52.csproj",
+      "projectName": "Methods exercise 52",
+      "projectPath": "C:\\Users\\lakin\\repos\\MethodsExercise\\Methods exercise 52\\Methods exercise 52\\Methods exercise 52.csproj",
       "packagesPath": "C:\\Users\\lakin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lakin\\repos\\MethodsExercise\\MethodsExercise\\obj\\",
+      "outputPath": "C:\\Users\\lakin\\repos\\MethodsExercise\\Methods exercise 52\\Methods exercise 52\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -27,14 +27,14 @@
         "C:\\Users\\lakin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -50,8 +50,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -63,30 +63,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.35, 6.0.35]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.35, 6.0.35]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.35, 6.0.35]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.35, 6.0.35]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
